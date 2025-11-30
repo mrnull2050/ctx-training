@@ -1,6 +1,8 @@
 package main
 
-import trainingwithdeadline "ctx/training_withDeadline"
+import trainingwithvalue "ctx/training_withValue"
+
+// import trainingwithdeadline "ctx/training_withDeadline"
 
 // import trainingwithcancel "ctx/training_withcancel"
 
@@ -9,5 +11,6 @@ import trainingwithdeadline "ctx/training_withDeadline"
 func main() {
 	// trainingwithtimeout.RUN()
 	// trainingwithcancel.RunApp()
-	trainingwithdeadline.RunAppD()
+	// trainingwithdeadline.RunAppD()
+	trainingwithvalue.RunV()
 }
